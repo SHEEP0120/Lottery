@@ -47,6 +47,7 @@ public class SpringRunnerTest {
         drawExec.doDrawExec(new DrawReq("八杯水", 10001L));
     }
 
+
     @Test
     public void test_insert() {
         Activity activity = new Activity();

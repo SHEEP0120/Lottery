@@ -15,8 +15,8 @@ import java.util.List;
  *
  * 必中奖策略抽奖，排掉已经中奖的概率，重新计算中奖范围
  */
-@Component("defaultRateRandomDrawAlgorithm")
-public class DefaultRateRandomDrawAlgorithm extends BaseAlgorithm {
+@Component("entiretyRateRandomDrawAlgorithm")
+public class EntiretyRateRandomDrawAlgorithm extends BaseAlgorithm {
 
     @Override
     public String randomDraw(Long strategyId, List<String> excludeAwardIds) {
@@ -37,8 +37,12 @@ public class DefaultRateRandomDrawAlgorithm extends BaseAlgorithm {
         }
 
         // 前置判断
-        if (differenceAwardRateList.size() == 0) return "";
-        if (differenceAwardRateList.size() == 1) return differenceAwardRateList.get(0).getAwardId();
+        if (differenceAwardRateList.size() == 0) {
+            return "";
+        }
+        if (differenceAwardRateList.size() == 1) {
+            return differenceAwardRateList.get(0).getAwardId();
+        }
 
         // 获取随机概率值
         SecureRandom secureRandom = new SecureRandom();
