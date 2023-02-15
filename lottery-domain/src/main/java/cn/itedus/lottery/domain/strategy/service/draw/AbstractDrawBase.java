@@ -37,7 +37,7 @@ public abstract class AbstractDrawBase extends DrawStrategySupport implements ID
         // 2. 校验抽奖策略是否已经初始化
         this.checkAndInitRateData(req.getStrategyId(), strategy.getStrategyMode(), strategyRich.getStrategyDetailList());
 
-        // 3. 获取不在抽奖范围内的列表，包括：奖品库存为空、风控策略、临时调整等
+        // 3. 获取不在抽奖范围内的列表，包括：奖品库存为空、风控策略、临时调整等(查了数据库)
         List<String> excludeAwardIds = this.queryExcludeAwardIds(req.getStrategyId());
 
         // 4. 执行抽奖算法
@@ -111,7 +111,7 @@ public abstract class AbstractDrawBase extends DrawStrategySupport implements ID
         }
 
         Award award = super.queryAwardInfoByAwardId(awardId);
-        DrawAwardInfo drawAwardInfo = new DrawAwardInfo(award.getAwardId(), award.getAwardName());
+        DrawAwardInfo drawAwardInfo = new DrawAwardInfo(award.getAwardId(), award.getAwardType(), award.getAwardName(), award.getAwardContent());
         logger.info("执行策略抽奖完成【已中奖】，用户：{} 策略ID：{} 奖品ID：{} 奖品名称：{}", uId, strategyId, awardId, award.getAwardName());
 
         return new DrawResult(uId, strategyId, Constants.DrawState.SUCCESS.getCode(), drawAwardInfo);

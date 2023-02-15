@@ -21,9 +21,6 @@ public class DrawExecImpl extends AbstractDrawBase {
 
     private Logger logger = LoggerFactory.getLogger(DrawExecImpl.class);
 
-    @Resource
-    private IStrategyRepository strategyRepository;
-
     @Override
     protected List<String> queryExcludeAwardIds(Long strategyId) {
         List<String> awardList = strategyRepository.queryNoStockStrategyAwardList(strategyId);
@@ -50,6 +47,4 @@ public class DrawExecImpl extends AbstractDrawBase {
         // 返回结果，库存扣减成功返回奖品ID，否则返回NULL 「在实际的业务场景中，如果中奖奖品库存为空，则会发送兜底奖品，比如各类券」
         return isSuccess ? awardId : null;
     }
-
-
 }
