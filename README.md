@@ -12,7 +12,7 @@
 <a href="#">规则引擎</a>
 </div>
 
->` Lottery 抽奖系统` 项目是一款互联网面向C端人群营销活动类的抽奖系统，可以提供抽奖活动玩法策略的创建、参与、记账、发奖等逻辑功能。在使用的过程中运营人员通过创建概率类奖品的抽奖玩法，对用户进行拉新、促活、留存，通常这样的系统会用在电商、外卖、出行、公众号运营等各类场景中。By 小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html)图书作者，沉淀、分享、成长，让自和他人都能有所收获！
+>` Lottery 抽奖系统` 项目是一款互联网面向C端人群营销活动类的抽奖系统，可以提供抽奖活动玩法策略的创建、参与、记账、发奖等逻辑功能。在使用的过程中运营人员通过创建概率类奖品的抽奖玩法，对用户进行拉新、促活、留存，通常这样的系统会用在电商、外卖、出行、公众号运营等各类场景中。
 
 ⛳ **目录**
 
@@ -20,8 +20,6 @@
 - [系统架构](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84)
 - [开发日志](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0)
 - [开发规范(分支、提交)](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83)
-- [问题交流](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E9%97%AE%E9%A2%98%E4%BA%A4%E6%B5%81)
-- [感谢支持](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E6%84%9F%E8%B0%A2%E6%94%AF%E6%8C%81)
 
 ## 📝 学习说明
 
@@ -68,37 +66,4 @@ perf:     提高性能的改动
 ci:       与CI（持续集成服务）有关的改动
 chore:    不修改src或者test的其余修改，例如构建过程或辅助工具的变动
 ```
-
-## 🐾 问题交流
-
-- **加群交流**
-
-    本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：`Spring学习加群`。
-    
-    <img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/fustack.png" width="180" height="180"/>
-
-- **公众号(bugstack虫洞栈)**
-
-    沉淀、分享、成长，专注于原创专题案例，以最易学习编程的方式分享知识，让自己和他人都能有所收获。目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、DDD专题案例、源码分析等。
-    
-    <img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/bugstack.png" width="180" height="180"/>
-    
-## 🎉 感谢支持
-
-![](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/background.png)
-
-参与到项目开发学习过程中的小伙伴，可以通过PR提交个人对项目中学习过程中一些关于，代码优化、逻辑完善、问题修复等各项内容。当你的代码完整的提交以后，我会进行 `review` 通过以后进行合并以及记录你的提交信息。
-
-<a href="#小傅哥">
-    <img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/xiaofuge.jpeg" style="border-radius:5px" width="50px">
-</a>
-<a href="#倩倩">
-    <img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/h_1.jpeg" style="border-radius:5px" width="50px">
-</a>
-<a href="#钢球">
-    <img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/h_2.jpeg" style="border-radius:5px" width="50px">
-</a>
-<a href="#豆豆">
-    <img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/h_3.jpeg" style="border-radius:5px" width="50px">
-</a>
 
