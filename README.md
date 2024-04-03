@@ -44,9 +44,9 @@
 
 ## 📐 开发规范
 
-**分支命名**：日期_姓名首字母缩写_功能单词，如：`210804_xfg_buildFramework`
+**分支命名**：日期_姓名首字母缩写_功能单词
 
-**提交规范**：`作者，type: desc` 如：`小傅哥，fix：修复查询用户信息逻辑问题` *参考Commit message 规范*
+**提交规范**：`作者，type: desc` *参考Commit message 规范*
 
 ```java
 # 主要type
